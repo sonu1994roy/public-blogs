@@ -1,0 +1,52 @@
+.infoContainer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+  }
+  .userTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--softTextColor);
+  }
+  
+  .textContainer {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 64px;
+    margin-bottom: 50px;
+  }
+  .content {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: self-start;
+    text-align: start;
+    border: 1px solid;
+    padding: 4px ;
+    margin-bottom: 15px;
+
+  }
+ .button{
+    box-sizing: border-box;
+    padding: 4px 8px ;
+    margin-right: 4px;
+    display:inline-block;
+    background: rgb(0, 255, 115);
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+ }
+ .button1{
+    box-sizing: border-box;
+    padding: 4px 8px ;
+    display:inline-block;
+    background: red;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+ }
